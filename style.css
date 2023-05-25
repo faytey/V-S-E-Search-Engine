@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  margin: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  max-width: 1200px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(white, rgb(250, 209, 250), white);
+}
+
+#query {
+  width: 40vw;
+  padding: 0.7em 1.5em;
+  margin: auto;
+  border-radius: 2em;
+  border: none;
+  box-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+}
+
+button {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+  color: #f8f8f8;
+  font-size: 1.2em;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.query {
+  width: 40vw;
+  padding: 0.7em 1.5em;
+  margin: 1rem auto;
+  border-radius: 2em;
+  border: none;
+  box-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+  display: block;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 3.5rem;
+  background: linear-gradient(to right, blue, purple);
+  text-align: center;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 0.5em;
+}
+
+#all {
+  display: flex;
+  justify-content: center;
+  border: 2px solid brown;
+  border-radius: 1rem;
+  width: 80%;
+  margin: auto;
+  padding: 1em;
+  background-color: #f8f8f8;
+}
+
+.gsc-resultsbox-visible,
+.gsc-control-cse,
+.gsc-resultsRoot {
+  background-color: #f8f8f8 !important;
+}
+
+.gs-webResult {
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  text-align: left;
+  background-color: #fff;
+}
+
+.gsc-url-top,
+.gsc-url-bottom,
+.gsc-richsnippet-showsnippet-label,
+.gs-visibleUrl,
+.gs-snippet {
+  display: none !important;
+  padding: 0;
+  margin: 0;
+}
+
+a .gs-image {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.gs-image {
+  max-width: 300px !important;
+  max-height: 150px !important;
+}
+
+.gsc-table-result,
+.gsc-thumbnail-inside {
+  flex: 1;
+}
+
+.gs-title,
+b {
+  color: black !important;
+}
